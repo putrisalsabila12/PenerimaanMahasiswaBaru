@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penerimaan Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background unp.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        h1, h2 {
+            color: #667686;
+        }
+        .faculty {
+            margin-bottom: 30px;
+        }
+        .faculty h2 {
+            background-color: #667686;
+            color: #fff;
+            padding: 8px;
+            border-radius: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #667686;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo unp.jpg" alt="LOGO UNP">
+            <h1>Laporan Penerimaan Mahasiswa Baru</h1>
+            <h2>Universitas Negeri Padang</h2>
+            <p>Tahun Akademik 2025-2026</p>
+        </div>
+
+        <!-- Fakultas Teknik -->
+        <div class="faculty">
+            <h2>Fakultas Teknik</h2>
+            <table>
+                <tr>
+                    <th>No Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+                <tr><td>FT001</td><td>Wahyu Gavin</td><td>SNBP</td><td>Teknik Elektro</td><td>Teknik Listrik</td></tr>
+                <tr><td>FT002</td><td>Rizky Sembiring</td><td>SNBT</td><td>Teknik Mesin</td><td>Teknik Otomotif</td></tr>
+                <tr><td>FT003</td><td>Aulia Salsabila</td><td>Mandiri</td><td>Teknik Sipil</td><td>Teknik Bangunan</td></tr>
+                <tr><td>FT004</td><td>Ahmad Ghani</td><td>SNBP</td><td>Teknik Informatika</td><td>Teknologi Informasi</td></tr>
+                <tr><td>FT005</td><td>Rajendra Azmi</td><td>SNBT</td><td>Teknik Kimia</td><td>Rekayasa Kimia</td></tr>
+            </table>
+        </div>
+
+        <!-- Fakultas Ilmu Pendidikan -->
+        <div class="faculty">
+            <h2>Fakultas Ilmu Pendidikan</h2>
+            <table>
+                <tr>
+                    <th>No Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+                <tr><td>FIP001</td><td>Deva Aulia</td><td>SNBP</td><td>Pendidikan Guru</td><td>PGSD</td></tr>
+                <tr><td>FIP002</td><td>Andi Hermawan</td><td>Mandiri</td><td>Bimbingan Konseling</td><td>Konseling Remaja</td></tr>
+                <tr><td>FIP003</td><td>Aurel Afifah</td><td>SNBT</td><td>Pendidikan Luar Sekolah</td><td>PLS</td></tr>
+                <tr><td>FIP004</td><td>Fathurrahman</td><td>Mandiri</td><td>Pendidikan Anak Usia Dini</td><td>PAUD</td></tr>
+                <tr><td>FIP005</td><td>Chairunnisa</td><td>SNBP</td><td>Pendidikan Khusus</td><td>Pendidikan Luar Biasa</td></tr>
+            </table>
+        </div>
+
+        <!-- Fakultas Bahasa dan Seni -->
+         <div class="faculty">
+            <h2>Fakultas Bahasan dan Seni</h2>
+            <table>
+                <tr>
+                    <th>No Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+                <tr><td>FIP001</td><td>Selvi Anggraini</td><td>SNBP</td><td>Bahasa Indonesia</td><td>Sastra Indonesia</td></tr>
+                <tr><td>FIP002</td><td>Adiva Azmi</td><td>Mandiri</td><td>Seni Tari</td><td>Pendidikan Seni Tari</td></tr>
+                <tr><td>FIP003</td><td>Afika Zabel</td><td>SNBT</td><td>Seni rupa</td><td>Seni Lukis</td></tr>
+                <tr><td>FIP004</td><td>Hafizh Ramadhan</td><td>Mandiri</td><td>Seni Musik</td><td>Pendidikan Seni Musik</td></tr>
+                <tr><td>FIP005</td><td>Ayla Rania</td><td>SNBP</td><td>Bahasa Inggris</td><td>Pendidikan Bahasa Inggris</td></tr>
+            </table>
+    </div>
+          
+    <!-- Fakultas Ilmu Sosial -->
+    <div class="faculty">
+        <h2>Fakultas Ilmu Sosial</h2>
+        <table>
+            <tr>
+                <th>No Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+            <tr><td>FIP001</td><td>Naura Harlia</td><td>SNBP</td><td>Antropologi</td><td>Antropologi</td></tr>
+            <tr><td>FIP002</td><td>Tina Agustin</td><td>Mandiri</td><td>Ilmu Komunikasi</td><td>Ilmu Komunikasi</td></tr>
+            <tr><td>FIP003</td><td>Eka Rahayu</td><td>SNBT</td><td>Geografi</td><td>Geografi</td></tr>
+            <tr><td>FIP004</td><td>Agus Tio</td><td>Mandiri</td><td>Sosiologi</td><td>PSosiologi</td></tr>
+            <tr><td>FIP005</td><td>Rahmadania</td><td>SNBP</td><td>Ilmu Politik</td><td>Ilmu Politik</td></tr>
+        </table>
+</div>
+
+ <!-- Fakultas Matematika dan Ilmu Pengetahuan Alam -->
+ <div class="faculty">
+    <h2>Fakultas Matematika dan Ilmu Pengetahuan Alam</h2>
+    <table>
+        <tr>
+            <th>No Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+        <tr><td>FIP001</td><td>Zahara Anggini</td><td>SNBP</td><td>Biologi</td><td>Biologi</td></tr>
+        <tr><td>FIP002</td><td>Selva Baila</td><td>Mandiri</td><td>Fisika</td><td>Fisika</td></tr>
+        <tr><td>FIP003</td><td>Tirta Armada</td><td>SNBT</td><td>Statistika</td><td>Statistika</td></tr>
+        <tr><td>FIP004</td><td>Aini Nurah</td><td>Mandiri</td><td>Kimia</td><td>Kimia</td></tr>
+        <tr><td>FIP005</td><td>Ezika Chandra</td><td>SNBP</td><td>Matematika</td><td>Matematika</td></tr>
+    </table>
+</div>
+
+<!-- Fakultas Ilmu Keolahragaan-->
+<div class="faculty">
+    <h2>Fakultas Ilmu Keolahragaan</h2>
+    <table>
+        <tr>
+            <th>No Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+        <tr><td>FIP001</td><td>Arya Pinggala</td><td>SNBP</td><td>Rekreasi</td><td>Rekreasi</td></tr>
+        <tr><td>FIP002</td><td>Grecylla</td><td>Mandiri</td><td>Ilmu Gizi</td><td>Ilmu Gizi/td></tr>
+        <tr><td>FIP003</td><td>Angel Amalia</td><td>SNBT</td><td>Pendidikan Kepelatihan</td><td>Pendidikan Kepelatihan</td></tr>
+        <tr><td>FIP004</td><td>Eni Marlina</td><td>Mandiri</td><td>Pendidikan Jasmani</td><td>Pendidikan Jasmani</td></tr>
+        <tr><td>FIP005</td><td>Quennara</td><td>SNBP</td><td>Ilmu Keolahragaan</td><td>Ilmu Keolahragaan</td></tr>
+    </table>
+</div>
+
+<!-- Fakultas Ekonomi -->
+<div class="faculty">
+    <h2>Fakultas Ekonomi</h2>
+    <table>
+        <tr>
+            <th>No Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+        <tr><td>FIP001</td><td>Aldino Saputra</td><td>SNBP</td><td>Manajemen</td><td>Manajemen</td></tr>
+        <tr><td>FIP002</td><td>Ferta Sari</td><td>Perbankan</td><td>Perbankan</td><td>Perbankan</td></tr>
+        <tr><td>FIP003</td><td>Amanda Aqila</td><td>SNBT</td><td>Akuntansi</td><td>Akuntansi</td></tr>
+        <tr><td>FIP004</td><td>Fenty Datasya</td><td>Mandiri</td><td>Ekonomi Pembangunan</td><td>Ekonomi Pembangunan</td></tr>
+        <tr><td>FIP005</td><td>Ridho Putra</td><td>SNBP</td><td>Ekonomi Syariah</td><td>Ekonomi Syariah</td></tr>
+    </table>
+</div>
+
+<!-- Fakultas  Pascasarjana -->
+<div class="faculty">
+    <h2>Fakultas Pascasarjana</h2>
+    <table>
+        <tr>
+            <th>No Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+        <tr><td>FIP001</td><td>Aca Tian</td><td>SNBP</td><td>Magister Manajemen</td><td>Manajemen</td></tr>
+        <tr><td>FIP002</td><td>Amellinda</td><td>Perbankan</td><td>Magister Teknik</td><td>Teknik</td></tr>
+        <tr><td>FIP003</td><td>Davina syaharani</td><td>SNBT</td><td>Magister Hukum</td><td>Hukum</td></tr>
+        <tr><td>FIP004</td><td>Devita Anya</td><td>Mandiri</td><td>Magister Ekonomi</td><td>Ekonomi</td></tr>
+        <tr><td>FIP005</td><td>Ridho Alygel</td><td>SNBP</td><td>Magister Pendidikan</td><td>Pendidikan</td></tr>
+    </table>
+</div>
+
+<!-- Fakultas Pariwisata dan Perhotelan -->
+<div class="faculty">
+    <h2>Fakultas Pariwisata dan Perhotelan</h2>
+    <table>
+        <tr>
+            <th>No Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+        <tr><td>FIP001</td><td>Rico Pambinto</td><td>SNBP</td><td>Pariwisata</td><td>Pariwisata</td></tr>
+        <tr><td>FIP002</td><td>Dina Agustin</td><td>Perbankan</td><td>Manajemen Pariwisata</td><td>Manajemen Pariwisata</td></tr>
+        <tr><td>FIP003</td><td>Amanda Manopo</td><td>SNBT</td><td>Perhotelan</td><td>Perhotelan</td></tr>
+        <tr><td>FIP004</td><td>Fedya Zelila</td><td>Mandiri</td><td>Manajemen Event</td><td>Manajemen Event</td></tr>
+        <tr><td>FIP005</td><td>Rado Putra</td><td>SNBP</td><td>Manajemen Perhotelan</td><td>Manajemen Perhotelan</td></tr>
+    </table>
+</div>
+
+<!-- Fakultas Kedokteran -->
+<div class="faculty">
+    <h2>Fakultas Kedokteran</h2>
+    <table>
+        <tr>
+            <th>No Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+        <tr><td>FIP001</td><td>Dono Hermawan</td><td>SNBP</td><td>Kedokteran Hewan</td><td>Kedokteran Hewan</td></tr>
+        <tr><td>FIP002</td><td>Alya Sari</td><td>Perbankan</td><td>Kedokteran Hewan</td><td>Kedokteran Hewan</td></tr>
+        <tr><td>FIP003</td><td>Rani Aqila</td><td>SNBT</td><td>Kedokteran</td><td>Kedokteran</td></tr>
+        <tr><td>FIP004</td><td>Fabian Erlangga</td><td>Mandiri</td><td>Kedokteran Hewan</td><td>Kedokteran Hewan</td></tr>
+        <tr><td>FIP005</td><td>Putra Anggara</td><td>SNBP</td><td>Kedokteran</td><td>Kedokteran</td></tr>
+    </table>
+</div>
+    </div>
+</body>
+</html>
